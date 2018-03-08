@@ -14,9 +14,9 @@ public class StringUtil {
 	 * @return
 	 */
 	
-	/*private StringUtil(){
+	private StringUtil(){
 		
-	}*/
+	}
 	
 	public static String firstWord2LowerCase(String value) {
 		if (Character.isLowerCase(value.charAt(0))) {
