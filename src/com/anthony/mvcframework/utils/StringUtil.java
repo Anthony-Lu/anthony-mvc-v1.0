@@ -17,16 +17,16 @@ public class StringUtil {
 	private StringUtil(){
 		
 	}
-	
-	public static String firstWord2LowerCase(String value) {
-		if (Character.isLowerCase(value.charAt(0))) {
-			return value;
-		}
-		return new StringBuilder()
-				.append(Character.toLowerCase(value.charAt(0)))
-				.append(value.substring(1))
-				.toString();
-	}
+//	
+//	public static String firstWord2LowerCase(String value) {
+//		if (Character.isLowerCase(value.charAt(0))) {
+//			return value;
+//		}
+//		return new StringBuilder()
+//				.append(Character.toLowerCase(value.charAt(0)))
+//				.append(value.substring(1))
+//				.toString();
+//	}
 
 	/**
 	 * 将首字母转为小写
@@ -40,9 +40,9 @@ public class StringUtil {
 		return String.valueOf(cs);
 	}
 
-	public static void main(String[] args) {
-		String string = firstWord2LowerCase("Hello World");
-		System.out.println(string);
-		System.exit(0);
-	}
+//	public static void main(String[] args) {
+//		String string = firstWord2LowerCase("Hello World");
+//		System.out.println(string);
+//		System.exit(0);
+//	}
 }
