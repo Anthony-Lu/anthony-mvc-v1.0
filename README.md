@@ -1,1 +1,1 @@
-springmvc_demo
+模拟SpringMVC部分功能的demo
